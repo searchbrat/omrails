@@ -1,0 +1,26 @@
+/* You could change the font. May have to restart the server */
+/* $baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen); */
+
+$btn-primary-bg: orange;
+
+$navbarBackgroundHighlight: white;
+$navbar-default-bg: white;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+/*.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}*/
+
+.footer {
+	margin-top: 50px;
+	a {
+		color: $gray;
+	}
+}
